@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canyon: Voxel World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Canyon - Voxel Landscape</h1>
+        <p><strong>Creator:</strong> Evan Pontrich | <strong>Project 2:</strong> Cube World</p>
+        <p><strong>Info:</strong> Procedural landscape generated via WebGL matrix transformations of a single 2x2x2 cube primitive. Features distance fog, heightmap image sampling, and Bezier curve skyscape animations.</p>
+        <p><em>Note: You must run this using a local web server (e.g., VSCode Live Server) to allow the JavaScript to sample the local image files without CORS errors.</em></p>
+    </header>
+
+    <!-- Hidden images for data sampling -->
+    <img id="heightmap" src="assets/heightmap.png" alt="heightmap" style="display:none;">
+    <img id="colormap" src="assets/colormap.png" alt="colormap" style="display:none;">
+
+    <canvas id="glcanvas" width="1200" height="800"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
