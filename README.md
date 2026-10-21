@@ -30,3 +30,6 @@ Because this engine relies on JavaScript's `getImageData()` to sample local imag
 *   **Language:** JavaScript (ES6+), GLSL (OpenGL Shading Language)
 *   **Graphics API:** WebGL 2
 *   **Dependencies:** None (Zero external libraries)
+
+## Demo Photo
+<img width="911" height="611" alt="Screenshot 2026-10-21 191523" src="https://github.com/user-attachments/assets/f8d5c522-d77f-4fac-9909-e72cde38e0b4" />
